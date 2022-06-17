@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Brett's Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+
+    <script>
+        function skillsCloud() {
+            document.getElementById('skills').src="Images/wordcloudskills.png";
+        }
+
+        function skillsText() {
+            document.getElementById('skills').src="Images/skillstext.png";
+        }
+
+        function toolsCloud() {
+            document.getElementById('tools').src="Images/wordcloudtools.png";
+        }
+
+        function toolsText() {
+            document.getElementById('tools').src="Images/toolstext.png";
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid bg-1 text-center" id="home">
+        <h1>Hi, I'm Brett</h1>
+        <img src="Images/profile.JPG" class="img-circle" alt="Image is having trouble loading ;(" usemap="#secret">
+        <map name="secret">
+            <area shape="circle" coords="200,150,20" href="https://www.youtube.com/watch?v=OBGQW16xd5M&ab_channel=orion4678h" target="_blank">
+        </map>
+        <h1>Welcome to my website</h1>
+    </div>
+
+    <div class="container-fluid bg-2 text-center" id="bio">
+        <h2>Who am I?</h2>
+
+        <div class="row">
+            <div class="col-sm-4">
+
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    I am a recent graduate of Iowa State University. 
+                    In high school I participated in multiple extra curricular activities receiving the honors of team captain of the cross country team and section leader of the drumline. 
+                    When I moved to Ames I joined both the ISU Computer Science and Software Engineering Club and the ISU Game Development Club. 
+                    I graduated in May of 2022 receiving my Bachelor's degree in Software Engineering and am now pursuing employment.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img id="skills" src="Images/wordcloudskills.png" alt="Skills Word Cloud" height="500px" width="500px">
+                <button class="btn btn-danger" onclick=skillsText();>Display in text</button>
+                <button class="btn btn-warning" onclick=skillsCloud();>Display in word cloud</button>
+            </div>
+            <div class="col-sm-4">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>< ! - -</h3>
+                <h3>
+                    Here are some 
+                    <br>
+                    of the 
+                    <br>
+                    skills and tools
+                    <br>
+                    I possess
+                </h3>    
+                <h3>- - ></h3>
+            </div>
+            <div class="col-sm-4">
+                <img id="tools" src="Images/wordcloudtools.png" alt="Tools Word Cloud" height="500px" width="500px">
+                <button class="btn btn-danger" onclick=toolsText();> Display in text </button>
+                <button class="btn btn-warning" onclick=toolsCloud();> Display in word cloud </button>
+            </div>
+        </div>
+
+    </div id="socials">
+
+
+    
+    <div class="container-fluid bg-3 text-center" id="socials">
+        <h3>How to get ahold of me</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="https://www.linkedin.com/in/brett-bethke-4b86a8218" target="_blank">
+                <img src="Images/LinkedIn-Logo.png" alt="LinkedIn" height="400px" width="400px"> 
+                </a>
+                <h4>LinkedIn</h4>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://github.com/Biglouey" target="_blank">
+                <img src="Images/GitHub-Logo.png" alt="GitHub" height="400px" width="400px">
+                </a>
+                <h4>GitHub</h4>
+            </div>
+            <div class="col-sm-4">
+                <a href = "mailto: brett0825@gmail.com" target="_blank">
+                <img src="Images/Gmail-Logo.png" alt="Gmail" height="400px" width="400px">
+                </a>
+                <h4>Email</h4>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href=#socials>Socials</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg-1 {
+    /*background-color: rgba(129, 0, 0, 0.808);*/
+    background-color: transparent;
+    background-image: url("Images/forest.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-width: 100%;
+    color: white;
+    padding-top: 15px;
+}
+.bg-2 {
+    background-color: lightgrey;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.bg-3 {
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(255, 0, 0, 0.69);
+}
+
+li a:active {
+    background-color: gold;
+}
