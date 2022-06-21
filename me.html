@@ -63,9 +63,13 @@
 
         <div class="row">
             <div class="col-sm-4">
-                <img id="skills" src="Images/wordcloudskills.png" alt="Skills Word Cloud" height="500px" width="500px">
-                <button class="btn btn-danger" onclick=skillsText();>Display in text</button>
-                <button class="btn btn-warning" onclick=skillsCloud();>Display in word cloud</button>
+                <div class="row">
+                    <img id="skills" src="Images/wordcloudskills.png" alt="Skills Word Cloud" height="500px" width="500px">
+                </div>
+                <div class="row">
+                    <button class="btn btn-danger" onclick=skillsText();>Display in text</button>
+                    <button class="btn btn-warning" onclick=skillsCloud();>Display in word cloud</button>
+                </div>
             </div>
             <div class="col-sm-4">
                 <br>
@@ -75,9 +79,7 @@
                 <br>
                 <h3>< ! - -</h3>
                 <h3>
-                    Here are some 
-                    <br>
-                    of the 
+                    Here are some of the 
                     <br>
                     skills and tools
                     <br>
@@ -86,14 +88,16 @@
                 <h3>- - ></h3>
             </div>
             <div class="col-sm-4">
-                <img id="tools" src="Images/wordcloudtools.png" alt="Tools Word Cloud" height="500px" width="500px">
-                <button class="btn btn-danger" onclick=toolsText();> Display in text </button>
-                <button class="btn btn-warning" onclick=toolsCloud();> Display in word cloud </button>
+                <div class="row">
+                    <img id="tools" src="Images/wordcloudtools.png" alt="Tools Word Cloud" height="500px" width="500px">
+                </div>
+                <div class="row">
+                    <button class="btn btn-danger" onclick=toolsText();> Display in text </button>
+                    <button class="btn btn-warning" onclick=toolsCloud();> Display in word cloud </button>
+                </div>
             </div>
         </div>
-
     </div id="socials">
-
 
     
     <div class="container-fluid bg-3 text-center" id="socials">
@@ -118,11 +122,16 @@
                 <h4>Email</h4>
             </div>
         </div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#bio">Bio</a></li>
-            <li><a href=#socials>Socials</a></li>
-        </ul>
+
+        <div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href=#socials>Socials</a></li>
+                <!--<li><input type="text" placeholder="Search the page"></li>-->
+                <!--<button type="submit"><i class="glyphicon glyphicon-search"></i></button>-->
+            </ul>
+        </div>
     </div>
 
 </body>
